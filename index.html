@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba 123 123</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piscina animada</title>
 </head>
 <body>
-    <p>Hola jeje</p>
+    <div class="scene">
+        <div class="sky">
+            <div class="sun"></div>
+        </div>
+
+        <div class="pool">
+            <div class="pool-edge"></div>
+            <div class="water" id="water">
+                <div class="wave wave1"></div>
+                <div class="wave wave2"></div>
+                <div class="wave wave3"></div>
+
+                <div class="floaters">
+                    <div class="ball" style="left:12%; top:30%"></div>
+                    <div class="ball" style="left:52%; top:20%"></div>
+                    <div class="ball" style="left:78%; top:40%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
